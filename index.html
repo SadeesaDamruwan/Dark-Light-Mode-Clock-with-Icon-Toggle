@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Current Time Display</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <pre id="codeBlock" class="code"></pre>
+    <div class="clock">
+      <div class="hand hour" id="hourHand"></div>
+      <div class="hand minute" id="minuteHand"></div>
+      <div class="hand second" id="secondHand"></div>
+      <div class="center-dot"></div>
+    </div>
+  </div>
+<div class="toggle-wrapper">
+  <span id="mode-icon"></span>
+  <label class="switch">
+    <input type="checkbox" id="toggle-mode" />
+    <span class="slider"></span>
+  </label>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
