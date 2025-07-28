@@ -41,7 +41,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/dark-light-clock-toggle.git
+git clone https://github.com/Sadeesa/dark-light-clock-toggle.git
 Open index.html in your favorite browser.
 
 Usage
