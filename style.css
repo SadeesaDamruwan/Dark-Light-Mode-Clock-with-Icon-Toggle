@@ -5,7 +5,7 @@ body {
   color: white;
 }
 body.light {
-  background-color: #fefefe; /* light background */
+  background-color: white; /* light background */
   color: #222222; /* dark text */
 }
 
@@ -167,7 +167,7 @@ body.light .center-dot {
   width: 32px;
   left: 8px;
   bottom: 4px;
-  background-color: white;
+  background-color: wheat;
   border-radius: 50%;
   transition: 0.4s;
   display: flex;
@@ -180,11 +180,11 @@ body.light .center-dot {
 }
 
 input:checked + .slider {
-  background-color: #fff; 
+  background-color: wheat; 
 }
 
 input:checked + .slider:after {
   transform: translateX(66px);
   content: "☀️";
-  color: #f1c40f;
+  color: wheat;
 }
