@@ -4,6 +4,57 @@ body {
   font-family: Consolas, monospace;
   color: white;
 }
+body.light {
+  background-color: #fefefe; /* light background */
+  color: #222222; /* dark text */
+}
+
+body.light .code {
+  color: #222222; /* make code text dark */
+}
+
+body.light .keyword {
+  color: #007acc; /* darker blue */
+}
+
+body.light .variable {
+  color: #000000; /* black */
+}
+
+body.light .key {
+  color: #008000; /* darker green */
+}
+
+body.light .number {
+  color: #aa5500; /* darker gold */
+}
+
+body.light .string {
+  color: #b22222; /* darker red */
+}
+
+body.light .percent {
+  color: #555555; /* medium gray */
+}
+
+/* Also update clock hands and borders to be darker */
+body.light .clock {
+  border-color: #444444;
+  box-shadow: 0 0 12px #444444;
+}
+
+body.light .hand.hour {
+  background: #444444;
+}
+
+body.light .hand.minute {
+  background: #222222;
+}
+
+body.light .center-dot {
+  background: #222222;
+}
+
 
 .container {
   display: flex;
